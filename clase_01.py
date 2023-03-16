@@ -19,3 +19,18 @@ mi_texto = mi_palabra + mi_otra_palabra
 print(mi_palabra)
 print(mi_otra_palabra)
 print(mi_texto)
+
+
+# Operaciones con enteros
+mi_potencia = 2 ** 10
+print(mi_potencia)
+
+mi_multiplicacion = 3 * 3
+print(mi_multiplicacion)
+
+
+mi_resto = 10 % 3
+print(mi_resto)
+
+mi_cociente = 10 // 3
+print(mi_cociente)
