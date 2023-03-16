@@ -20,6 +20,12 @@ print(mi_palabra)
 print(mi_otra_palabra)
 print(mi_texto)
 
+copia_de_mi_texto = mi_texto
+print(copia_de_mi_texto)
+# para el futuro
+print(copia_de_mi_texto == mi_texto)
+print(copia_de_mi_texto == mi_palabra)
+
 
 # Operaciones con enteros
 mi_potencia = 2 ** 10
