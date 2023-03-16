@@ -10,3 +10,12 @@ print(calificacion_1)
 print(calificacion_2)
 print(suma_de_calificaciones)
 print(promedio)
+
+# Ejemplo de manejo de texto
+mi_palabra = "la gata"
+mi_otra_palabra = " se llama Orca"
+mi_texto = mi_palabra + mi_otra_palabra
+
+print(mi_palabra)
+print(mi_otra_palabra)
+print(mi_texto)
