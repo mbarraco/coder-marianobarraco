@@ -40,3 +40,12 @@ print(mi_resto)
 
 mi_cociente = 10 // 3
 print(mi_cociente)
+
+
+# Slicing de strings
+mi_palabra = "murcielago"
+
+print(mi_palabra[-1])
+print(mi_palabra[-3:-1])
+print(mi_palabra[2:8])
+print(mi_palabra[2:8:2])
