@@ -22,34 +22,36 @@ preferencia_2 = "Capcom"
 grupo_esperado_2 = "B"
 
 # Prueba 3
-nombre_3 = "Sara"
+nombre_3 = "Marcela"
 preferencia_3 = "Marvel"
 grupo_esperado_3 = "B"
 
 # Prueba 4
-nombre_4 = "Sara"
+nombre_4 = "Noelia"
 preferencia_4 = "Capcom"
 grupo_esperado_4 = "A"
+
+# Prueba 5
+nombre_5 = "Marcela"
+preferencia_5 = "Capcom"
+grupo_esperado_5 = "B"
 
 
 #################
 # Algoritmo
 
-nombre = nombre_4
-preferencia = preferencia_4
-grupo_esperado = grupo_esperado_4
+nombre = nombre_1
+preferencia = preferencia_1
+grupo_esperado = grupo_esperado_1
 
-
-if nombre.lower() < "m":
-    if preferencia.lower() == "marvel":
-        grupo = "A"
-    else:
-        grupo = "B"
-else:
-    if preferencia.lower() == "marvel":
-        grupo = "B"
-    else:
-        grupo = "A"
+if nombre.lower() < "m" and preferencia.lower() == "marvel":
+    grupo = "A"
+if nombre.lower() < "n" and preferencia.lower() == "capcom":
+    grupo = "B"
+if nombre.lower() >= "m" and preferencia.lower() == "marvel":
+    grupo = "B"
+if nombre.lower() >= "n" and preferencia.lower() == "capcom":
+    grupo = "A"
 
 
 print("grupo esperado: ", grupo_esperado)
