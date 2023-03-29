@@ -35,17 +35,21 @@ grupo_esperado_4 = "A"
 #################
 # Algoritmo
 
-nombre = nombre_1
-preferencia = preferencia_1
-grupo_esperado = grupo_esperado_1
+nombre = nombre_4
+preferencia = preferencia_4
+grupo_esperado = grupo_esperado_4
 
 
-if (nombre.startswith("A") or nombre.startswith("M")) and preferencia == "Marvel":
-    grupo = "A"
-elif (nombre.startswith("C") or nombre.startswith("S")) and preferencia == "Capcom":
-    grupo = "A"
+if nombre.lower() < "m":
+    if preferencia.lower() == "marvel":
+        grupo = "A"
+    else:
+        grupo = "B"
 else:
-    grupo = "B"
+    if preferencia.lower() == "marvel":
+        grupo = "B"
+    else:
+        grupo = "A"
 
 
 print("grupo esperado: ", grupo_esperado)
