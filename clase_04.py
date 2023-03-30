@@ -90,3 +90,41 @@ elif promedio == 10:
     print("2.1 Otorgar beca")
 else:
     print("3.1 No otorgar beca")
+
+# Ejercicio
+'''
+Un curso se ha dividido en dos grupos diferentes: A y B de acuerdo al nombre y a una
+preferencia (Marvel o Capcom). El grupo A está formado por fans de Marvel con un nombre
+anterior a la M y los fans de Capcom con un nombre posterior a la N y el grupo B por el resto.
+
+Escribir un programa que pregunte al usuario su nombre y preferencia, y muestre por pantalla el
+grupo que le corresponde.
+Ej.:
+¿Cómo te llamas?  Alan
+¿Cuál es tu preferencia (M o C)?  C
+Tu grupo es B
+Para preguntarle al usuario, recuerda usar input.
+
+'''
+preferencia = input("Ingresar preferencia: ")
+nombre = input("Ingresar nombre: ")
+
+if preferencia.lower() == "marvel":
+    if nombre.lower() < "m":
+        print("-> 1")
+        grupo = "A"
+    else:
+        print("-> 2")
+        grupo = "B"
+elif preferencia.lower() == "capcom":
+    if nombre.lower() > "n":
+        print("-> 3")
+        grupo = "A"
+    else:
+        print("-> 4")
+        grupo = "B"
+else:
+    grupo = "invalido"
+    print(f"PREFERNCIA INVALIDA: {preferencia}")
+
+print(f"El usuario '{nombre}' pertenece al grupo '{grupo}'")
