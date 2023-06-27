@@ -38,3 +38,32 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 !=0):
     default_msg = f"4. el número {year} es bisiesto"
 
 print(default_msg)
+
+# REGRESAMOS  21:43 HORA ARGENTINA
+
+# A partir de dos variables llamadas NOMBRE y EDAD (deben ser datos solicitados al usuario con input),
+# debes crear una variable de tipo bool cuyo valor sea True si se cumplen
+# TODAS las siguientes condiciones, encadenando operadores lógicos en una sola línea:
+
+# * NOMBRE sea diferente de cuatro asteriscos “****”
+# * EDAD sea mayor que 5 y a su vez menor que 20
+# * Que la longitud de NOMBRE sea mayor o igual a 4  pero a la vez menor que 8
+# * EDAD multiplicada por 3 sea mayor que 35
+
+# Luego muestra el resultado.
+# Si te animas, puedes mostrar, en lugar del resultado booleano,
+# un mensaje que indique si se cumplen o no las condiciones
+
+age = int(input("Ingresar edad: "))
+name = input("ingresar nombre: ")
+
+condition = (name != "****") and (5 < age < 20) and (4 < len(name) < 8) and (age * 3 > 35)
+print(condition)
+# Casos de prueba
+    # nombre = ****, edad = 8 -> False
+    # nombre = * edad = 4 -> False
+    # nombre = * edad = 21 -> False
+    # nombre = ermenegilda edad = 10 -> False
+    # nombre = teo edad = 10 -> False
+    # nombre = micaela edad = 6 -> False
+    # nombre = micaela edad = 19 -> True
