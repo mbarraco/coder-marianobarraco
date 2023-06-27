@@ -101,3 +101,33 @@ else:
 # c) 18, 2600, 2 -> credito denegado
 # d) 18, 4000, 2 -> credito aprobado
 # e) 18, 4001, 2 -> credito aprobado
+
+# MARVEL vs CAPCOM
+
+# consigna: arreglar el codigo para que resuelva bien el caso de prueba # capcom, nicasia -> B
+nombre = input("Cual es tu nombre? ")
+preferencia = input("Cual es tu preferencia: 'M' para Marvel o 'C' para CapCom? ")
+
+nombre = nombre.lower()
+preferencia = preferencia.lower()
+
+grupo = "no identificado"
+
+if preferencia not in ["m", "c"]:
+    print("Elegiste un valor incorrecto. Recorda que es 'M' para Marvel o 'C' para CapCom")
+else:
+    if preferencia == "m" and nombre < "m":
+        grupo = "A"
+    elif preferencia == "c" and nombre > "n":
+        grupo = "A"
+    else:
+        grupo = "B"
+
+print(f"Tu grupo es {grupo}")
+
+# marvel, ana -> A
+# marvel, rodrigo -> B
+# capcom, zara -> A
+# capcom, ana -> B
+# marvel, mariano -> B
+# capcom, nicasia -> B
