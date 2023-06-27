@@ -67,3 +67,37 @@ print(condition)
     # nombre = teo edad = 10 -> False
     # nombre = micaela edad = 6 -> False
     # nombre = micaela edad = 19 -> True
+
+# Para aprobar un crédito, el cliente debe ser mayor de edad.
+# Además, debe tener una antigüedad en el sistema financiero de mínimo 3 años y un ingreso mayor a 2500 dólares.
+# En caso no tenga la antigüedad suficiente,
+# su ingreso mensual debe ser como mínimo 4000 dólares.
+# Si no cumple ninguna de las condiciones, no se aprueba el crédito
+
+edad = int(input("Ingresar edad: "))
+ingresos_mensuales = float(input("Ingresar ingresos mensuales: "))
+antiguedad = int(input("Ingresar antigüedad: "))
+
+# condiciones:
+# 1. ser mayor de edad
+# 2. antiguedad mayor a 3 años ingreso mayor a 2500
+# 3. si no se cumple 2. entonces ingreso mayor o igual a 4000
+
+if edad < 18:
+    print("Cliente menor de edad. Crédito denegado")
+else:
+    if antiguedad >= 3 and ingresos_mensuales >= 2500:
+        print("Crédito otorgado!")
+    elif ingresos_mensuales >= 4000:
+        print("Crédito otorgado!")
+    else:
+        print("Ingresos insuficientes. Crédito denegado!")
+
+
+# Casos de prueba: (edad, ingresos mensuales, antiguedad)
+
+# a) 17, 2600, 4 -> credito denegado
+# b) 18, 2600, 4 -> credito aprobado
+# c) 18, 2600, 2 -> credito denegado
+# d) 18, 4000, 2 -> credito aprobado
+# e) 18, 4001, 2 -> credito aprobado
