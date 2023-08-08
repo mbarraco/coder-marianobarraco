@@ -1,0 +1,10 @@
+setup.py
+ejercicios/fechas.py
+ejercicios/hobbies.py
+ventas/__init__.py
+ventas/base_de_datos.py
+ventas/cliente.py
+ventas.egg-info/PKG-INFO
+ventas.egg-info/SOURCES.txt
+ventas.egg-info/dependency_links.txt
+ventas.egg-info/top_level.txt
