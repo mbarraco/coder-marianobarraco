@@ -1,0 +1,19 @@
+{% extends 'miApp/padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+    {% if mi_formulario.errors %}
+    <p style="color: red "> Error en los datos</p>
+    {% endif %}
+    <h2>Form</h2>
+    <form action="/cursosFormulario/" method="POST">
+        {% csrf_token %}
+        <table>
+            {{mi_formulario.as_table}}
+        </table>
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+
+{% endblock contenidoQueCambia %}
+
