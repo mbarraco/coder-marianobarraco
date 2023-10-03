@@ -33,14 +33,22 @@
 #     print(f"Lamentablemente no hay premio para tí. Has elegido: {ww}")
 
 
-# Ejemplo 3: "refactor"
-ww = 56
-es_par = ww % 2 == 0
-es_mayor_a_55 = ww > 55
+# # Ejemplo 3: "refactor"
+# ww = 56
+# es_par = ww % 2 == 0
+# es_mayor_a_55 = ww > 55
 
-if es_par and es_mayor_a_55:
-    print(" ---->  1")
-    print(f"Ganaste un premio! Has elegido {ww}")
-else:
-    print(" ---->  2")
-    print(f"Lamentablemente no hay premio para tí. Has elegido: {ww}")
+# if es_par and es_mayor_a_55:
+#     print(" ---->  1")
+#     print(f"Ganaste un premio! Has elegido {ww}")
+# else:
+#     print(" ---->  2")
+#     print(f"Lamentablemente no hay premio para tí. Has elegido: {ww}")
+
+ww = "9"
+
+if ww == 10 or ww == "diez":
+    print("Es el Diez!")
+
+if ww == 10 or ww.lower() == "diez": # Este código tiene un error de diseño
+    print("Es el Diez (aunque no exactamente quizá)")
