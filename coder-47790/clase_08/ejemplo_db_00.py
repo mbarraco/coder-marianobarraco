@@ -19,7 +19,7 @@ users_data = [
     ('Alice', 28),
     ('Bob', 22),
     ('Charlie', 30),
-    ('David', 25)
+    (1234, "25")
 ]
 cursor.executemany('INSERT INTO users (nombre, edad) VALUES (?, ?)', users_data)
 conn.commit()
