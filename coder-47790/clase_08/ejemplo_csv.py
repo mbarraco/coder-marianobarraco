@@ -9,34 +9,29 @@ df = pd.read_csv(file_name)
 # print(df)
 # print(len(df))
 # print(df.columns)
-# print(df.head(3))
+# print(df.head(15))
 # print(df.tail(3))
-print(
-    df.altura_tot.value_counts()
-)
+# print(
+#     df.altura_tot.value_counts()
+# )
+
+df = df.sort_values("altura_tot", ascending=False)
+print(df.head(15))
 
 
 
 
+def generar_link_a_google_maps(lat, long):
+    base_url = "https://www.google.com/maps/search/?api=1&query="
+    link = base_url + f"{lat},{long}"
+    return link
+
+lat = float(input("Enter the latitud: "))
+long = float(input("Enter the longitud: "))
+
+link = generar_link_a_google_maps(lat, long)
+print("_" * 90)
+print(f"\n Google Maps link: {link}")
+print("_" * 90)
 
 
-
-
-
-
-
-
-# def generate_gmaps_link(latitude, longitude):
-#     base_url = "https://www.google.com/maps/search/?api=1&query="
-#     link = base_url + f"{latitude},{longitude}"
-#     return link
-
-# latitude = float(input("Enter the latitude: "))
-# longitude = float(input("Enter the longitude: "))
-
-# link = generate_gmaps_link(latitude, longitude)
-# print(f"\nGenerated Google Maps link: {link}")
-
-
-
-# breakpoint()
