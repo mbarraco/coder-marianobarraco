@@ -18,9 +18,6 @@ df = pd.read_csv(file_name)
 df = df.sort_values("altura_tot", ascending=False)
 print(df.head(15))
 
-
-
-
 def generar_link_a_google_maps(lat, long):
     base_url = "https://www.google.com/maps/search/?api=1&query="
     link = base_url + f"{lat},{long}"
