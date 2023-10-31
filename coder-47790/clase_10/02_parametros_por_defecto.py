@@ -1,4 +1,3 @@
-
 def mi_func_2(parametro_1=None, parametro_2="omega"):
     print(f"El parametro 1 es: {parametro_1}")
     print(f"El parametro 2 es: {parametro_2}")
