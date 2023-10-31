@@ -6,5 +6,3 @@ while xx < 10:
     print(xx)
 else:
     print("fin de ciclo")
-
-

@@ -7,15 +7,9 @@ print(mi_tupla)
 print(mi_numero)
 
 print("-------------------")
-print(
-    type(mi_lista)
-)
-print(
-    type(mi_tupla)
-)
-print(
-    type(mi_numero)
-)
+print(type(mi_lista))
+print(type(mi_tupla))
+print(type(mi_numero))
 print("-------------------")
 mi_otra_lista = tuple(mi_lista)
 print(mi_otra_lista)

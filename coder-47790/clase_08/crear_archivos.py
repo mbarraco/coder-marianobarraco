@@ -5,7 +5,6 @@ mi_archivo.writelines(
     [
         "Esta es la primer linea que escribo!\n",
         "Esta es la segunda linea que escribo!\n",
-        "=)"
+        "=)",
     ]
 )
-

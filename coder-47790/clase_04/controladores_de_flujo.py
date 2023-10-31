@@ -50,5 +50,5 @@ ww = "9"
 if ww == 10 or ww == "diez":
     print("Es el Diez!")
 
-if ww == 10 or ww.lower() == "diez": # Este código tiene un error de diseño
+if ww == 10 or ww.lower() == "diez":  # Este código tiene un error de diseño
     print("Es el Diez (aunque no exactamente quizá)")

@@ -2,10 +2,7 @@ from pprint import pprint as pp
 
 
 dict_1 = {}
-dict_2 = {
-    1: "uno",
-    2: "dos"
-}
+dict_2 = {1: "uno", 2: "dos"}
 
 print(dict_1)
 print(dict_2)

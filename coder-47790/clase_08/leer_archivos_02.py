@@ -10,7 +10,7 @@ mi_archivo.seek(0)
 for linea in mi_archivo.readlines():
     linea_editada = linea.title().replace("e", "3")
     print(linea_editada)
-    sleep(.5)
+    sleep(0.5)
 
 mi_archivo.seek()
 

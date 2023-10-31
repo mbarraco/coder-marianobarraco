@@ -75,15 +75,10 @@ print("--------------------------------------------------")
 mi_lista = ["a", "b", "c", "d", "i", "e", "f", "g", "h", "i"]
 print(mi_lista)
 print("--------------------------------------------------")
-print(
-    mi_lista.index("a")
-    )
+print(mi_lista.index("a"))
 print("--------------------------------------------------")
-print(
-    mi_lista.index("i")
-    )
+print(mi_lista.index("i"))
 # print("--------------------------------------------------")
 # print(
 #     mi_lista.index("El tesoro de One Piece")
 #     )
-

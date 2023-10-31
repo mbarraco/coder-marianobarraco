@@ -1,4 +1,3 @@
-
 c0 = set()
 c1 = {1, 2, 3, 4, 4, "alpha"}
 
@@ -41,4 +40,3 @@ print("c0 ->", c0)
 print("c1 ->", c1)
 
 print("La diferencia simétrica es: ", c0.symmetric_difference(c1))
-

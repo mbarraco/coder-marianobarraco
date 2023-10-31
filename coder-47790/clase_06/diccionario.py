@@ -11,7 +11,7 @@ mi_diccionario["clave_02"] = 5000
 mi_diccionario["alejandro"] = [1, 2, 100]
 mi_diccionario["nombre"] = "mariano"
 mi_diccionario[45] = "spain"
-mi_diccionario[(1,2,3)] = "argentina"
+mi_diccionario[(1, 2, 3)] = "argentina"
 
 pp(mi_diccionario)
 

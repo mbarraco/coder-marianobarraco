@@ -4,7 +4,6 @@ fecha_de_nacimiento = input("\nIngrese un valor para la fecha_de_nacimiento: ")
 if not fecha_de_nacimiento.isnumeric():
     print("Por favor ingrese un número entero")
 else:
-
     xx = int(fecha_de_nacimiento)
 
     if xx >= 1920 and xx <= 1940:

@@ -1,7 +1,7 @@
-
 def mi_func_1(*args):
     for element in args:
         print(element)
+
 
 def mi_func_2(*args, **kwargs):
     for element in args:

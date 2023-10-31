@@ -1,4 +1,3 @@
-
 # edad = input("Ingresar edad: ")
 # edad = int(edad)
 
@@ -7,7 +6,9 @@ antiguedad = input("Ingresar antiguedad: ")
 ingreso = input("Ingresar ingreso: ")
 
 if not (edad.isnumeric() and antiguedad.isnumeric() and ingreso.isnumeric()):
-    print(f"Por favor ingrese un valor numérico. Usted ha ingresado: {edad}, {antiguedad}, {ingreso}")
+    print(
+        f"Por favor ingrese un valor numérico. Usted ha ingresado: {edad}, {antiguedad}, {ingreso}"
+    )
 else:
     print(f"---->  0")
     edad = int(edad)
@@ -28,7 +29,3 @@ else:
         else:
             print(f"---->  5")
             print("Credito denegado")
-
-
-
-

@@ -1,4 +1,3 @@
-
 xx = 0
 while xx < 10:
     print(xx)

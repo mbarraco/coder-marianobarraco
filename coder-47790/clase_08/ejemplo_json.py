@@ -1,20 +1,15 @@
 import json
 
 mi_departamento = {
-  "departamento": 8,
-  "activo": True,
-  "deudas": None,
-  "nombre": "Ventas",
-  "director": "Juan Rodríguez",
-  "empleados":[
-    {
-      "nombre":"Pedro",
-      "apellido":"Fernández"
-    },{
-      "nombre":"Jacinto",
-      "apellido":"Benavente"
-    }
-  ]
+    "departamento": 8,
+    "activo": True,
+    "deudas": None,
+    "nombre": "Ventas",
+    "director": "Juan Rodríguez",
+    "empleados": [
+        {"nombre": "Pedro", "apellido": "Fernández"},
+        {"nombre": "Jacinto", "apellido": "Benavente"},
+    ],
 }
 
 mi_archivo = open("departamento.json", "w")

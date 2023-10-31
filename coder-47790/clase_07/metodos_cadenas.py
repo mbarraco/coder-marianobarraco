@@ -1,4 +1,3 @@
-
 # mi_texto = "Nueve para los Reyes enanos en las casas de piedra"
 
 # print(mi_texto.upper())

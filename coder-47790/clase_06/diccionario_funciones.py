@@ -5,7 +5,7 @@ print(dict_1)
 dict_1.clear()
 print(dict_1)
 
-dict_2 =  {1: "one", 2: "two", 3: "three", 4: "four"}
+dict_2 = {1: "one", 2: "two", 3: "three", 4: "four"}
 
 print("-" * 90)
 xx = dict_2.get(3)

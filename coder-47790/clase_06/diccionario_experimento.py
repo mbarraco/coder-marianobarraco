@@ -1,5 +1,3 @@
-
-
 dict_1 = {1: "one", 2: "two"}
 dict_2 = dict_1
 dict_3 = dict_1.copy()

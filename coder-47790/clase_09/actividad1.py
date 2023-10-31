@@ -1,5 +1,3 @@
-
-
 def decidir_si_es_bisiesto(year):
     if year % 4 == 0:
         if year % 100 == 0 and not year % 400 == 0:
@@ -25,4 +23,3 @@ print("El año 1900 no es bisiesto")
 print("\n")
 decidir_si_es_bisiesto(400)
 print("El año 400 es bisiesto")
-

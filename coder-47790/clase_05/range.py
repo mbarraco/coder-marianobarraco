@@ -1,4 +1,3 @@
-
 xx = range(10)
 yy = range(5, 10)
 zz = range(5, 10, 2)

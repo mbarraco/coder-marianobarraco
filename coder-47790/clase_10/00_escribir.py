@@ -13,5 +13,3 @@ print("_" * 90)
 mi_archivo = open("mi_archivo.json", "w")
 json.dump(mi_diccionario, mi_archivo)
 mi_archivo.close()
-
-

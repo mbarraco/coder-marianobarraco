@@ -1,4 +1,3 @@
-
 xx = 0
 while xx < 10:
     print(xx)
@@ -7,7 +6,3 @@ while xx < 10:
         break
 else:
     print("fin de ciclo")
-
-
-
-

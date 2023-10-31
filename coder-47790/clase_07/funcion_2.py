@@ -1,6 +1,4 @@
-
 from time import sleep
-
 
 
 def decidir_si_es_par_o_impar(mi_numero):

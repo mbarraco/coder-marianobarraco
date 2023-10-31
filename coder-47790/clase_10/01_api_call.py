@@ -1,7 +1,6 @@
 import requests
 
 
-
 def consultar_capital(pais="argentina"):
     direccion = f"https://restcountries.com/v3.1/name/{pais}"
 
@@ -20,7 +19,6 @@ def consultar_capital(pais="argentina"):
     subregion = data["subregion"]
 
     print(capital, subregion)
-
 
 
 consultar_capital("argentina")

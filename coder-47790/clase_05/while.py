@@ -6,6 +6,6 @@ xx = 3
 #     imprimir el valor de x
 #     aumentar x en 1
 while xx < 10:
-    sleep(.5)
+    sleep(0.5)
     print(xx)
     xx = xx + 1

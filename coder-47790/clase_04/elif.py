@@ -13,7 +13,6 @@ if a == 9:
     print("a es 9")
 
 
-
 if a == 4:
     print("a es 4")
 else:
