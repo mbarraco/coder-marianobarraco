@@ -36,7 +36,7 @@ def tipos_de_request():
 def tipos_de_request_2():
     metodo = request.method
 
-    return f""" El tipo de pedido fue {metodo}
+    return f""" El tipo de pedido fue <h1>{metodo}</h1>
                 <form action="/tipos-de-request-2" method="post">
                     User: <input type="text" name="user"><br>
                     Password: <input type="password" name="password"><br>
@@ -49,7 +49,7 @@ def tipos_de_request_2():
 def tipos_de_request_3():
     metodo = request.method
 
-    return f""" El tipo de pedido fue {metodo}
+    return f""" El tipo de pedido fue <h1>{metodo}</h1>
                 <form action="/tipos-de-request-3" method="post">
                     User: <input type="text" name="user"><br>
                     Password: <input type="password" name="password"><br>
@@ -63,7 +63,7 @@ def tipos_de_request_4():
     metodo = request.method
 
     if metodo == "GET":
-        return f""" El tipo de pedido fue {metodo}
+        return f""" El tipo de pedido fue <h1>{metodo}</h1>
                     <form action="/tipos-de-request-4" method="post">
                         User: <input type="text" name="user"><br>
                         Password: <input type="password" name="password"><br>
@@ -74,7 +74,7 @@ def tipos_de_request_4():
         user = request.form.get("user")
         password = request.form.get("password")
 
-        return f""" El tipo de pedido fue {metodo}. <br>
+        return f""" El tipo de pedido fue <h1>{metodo}</h1>. <br>
                 La información enviada fue
                 <table border="1">
                     <tr>

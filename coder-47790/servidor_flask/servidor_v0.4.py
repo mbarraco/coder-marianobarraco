@@ -44,7 +44,7 @@ def home():
 
 @app.route("/segundos")
 def segundos():
-    segundos = round(datetime.now().timestamp(), 1)
+    segundos = datetime.now().timestamp()
     return f"Hola!  desde el 1 de Enero de 1970 hasta este momento, pasaron: {segundos} segundos"
 
 

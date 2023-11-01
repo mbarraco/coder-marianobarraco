@@ -29,7 +29,7 @@ def segundos():
 @app.route("/tipos-de-request")
 def tipos_de_request():
     tipo_de_pedido = request.method
-    return f"Hola! el tipo de pedido fue: {tipo_de_pedido}"
+    return f"Hola! el tipo de pedido fue: <h3>{tipo_de_pedido}</h3>"
 
 
 app.run(debug=True, port=8182)
