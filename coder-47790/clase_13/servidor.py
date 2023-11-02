@@ -4,21 +4,6 @@ from datetime import datetime
 app = Flask("mi_servidor")
 
 
-class Usuario:
-
-    def __init__(self, nombre, contraseña, email):
-        self.nombre = nombre
-        self.contraseña = contraseña
-        self.email = email
-
-    def presentarse(self):
-        print(f"Hola soy {self.nombre} y mi email es {self.email}")
-
-
-class BaseDeDatos:
-    pass
-
-
 
 
 
