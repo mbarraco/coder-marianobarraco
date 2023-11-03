@@ -1,5 +1,3 @@
-from pprint import pprint
-
 class BaseDeDatos:
     def __init__(self, nombre):
         self.nombre = nombre
@@ -11,8 +9,11 @@ class BaseDeDatos:
             "password": usuario.password
         }
 
+    def obtener_usuario(self, email):
+        return self.registro_de_usuarios[email]
+
     def mostrar_registro(self):
-        pprint(self.registro_de_usuarios)
+        print(self.registro_de_usuarios)
 
 
 class Usuario:
@@ -35,13 +36,11 @@ usuario_3 = Usuario("leandra", "admin1234", "leandra@coder.com")
 # usuario_1.presentarse()
 
 base_de_datos = BaseDeDatos("users")
-base_de_datos.mostrar_registro()
-print("_" * 90)
 base_de_datos.guardar_usuario(usuario_1)
-base_de_datos.mostrar_registro()
-print("_" * 90)
 base_de_datos.guardar_usuario(usuario_2)
-base_de_datos.mostrar_registro()
-print("_" * 90)
 base_de_datos.guardar_usuario(usuario_3)
-base_de_datos.mostrar_registro()
+
+
+usuario = base_de_datos.obtener_usuario("beta@coder.com")
+
+print(usuario)
