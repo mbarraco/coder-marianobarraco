@@ -15,8 +15,6 @@ class BaseDeDatos:
     def obtener_usuario(self, email):
         return self.registro_de_usuarios[email]
 
-    def mostrar_registro(self):
-        return self.registro_de_usuarios
 
 
 class Usuario:
