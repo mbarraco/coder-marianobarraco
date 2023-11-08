@@ -49,14 +49,10 @@ mi_jugador = Jugador("Frodo", mi_tablero.entrada)
 movimientos_permitidos = ["w", "a", "s", "d"]
 while True:
 
+    print(mi_jugador)
     if mi_tablero.juego_finalizado(mi_jugador):
-        print("***********************************")
-        print("***********************************")
-        print("***********************************")
         break
 
-
-    print(mi_jugador)
     movimiento = input(f"Hacia dónde debería moverse {mi_jugador.nombre}? {movimientos_permitidos} ")
     print("_" * 90)
     if movimiento not in movimientos_permitidos:
