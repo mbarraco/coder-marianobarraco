@@ -1,0 +1,11 @@
+setup.py
+modulos/00_main.py
+modulos/01_main.py
+modulos/matematica.py
+paquete_redistribuible/__init__.py
+paquete_redistribuible/jugador.py
+paquete_redistribuible/tablero.py
+paquete_redistribuible.egg-info/PKG-INFO
+paquete_redistribuible.egg-info/SOURCES.txt
+paquete_redistribuible.egg-info/dependency_links.txt
+paquete_redistribuible.egg-info/top_level.txt

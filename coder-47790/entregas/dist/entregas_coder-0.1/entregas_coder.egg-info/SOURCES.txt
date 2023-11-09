@@ -1,0 +1,9 @@
+setup.py
+actividad_1/actividad_1.py
+actividad_2/__init__.py
+actividad_2/jugador.py
+actividad_2/tablero.py
+entregas_coder.egg-info/PKG-INFO
+entregas_coder.egg-info/SOURCES.txt
+entregas_coder.egg-info/dependency_links.txt
+entregas_coder.egg-info/top_level.txt
