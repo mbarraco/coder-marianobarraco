@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Juego de Tablero</title>
+<style>
+  .contenedor-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tablero, #controles {
+    margin: 5px;
+    text-align: center; /* Añade alineación al centro para el contenido de los divs */
+  }
+
+  .fila {
+    display: flex;
+    justify-content: center; /* Centra los botones en la fila */
+  }
+
+  .boton {
+    margin: 0 20px; /* Añade espacio horizontal entre los botones */
+  }
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="contenedor-central">
+
+<div id="controles">
+
+  <!-- Fila para el botón de movimiento hacia arriba -->
+  <div class="fila">
+    <form action="/partida" method="post">
+      <input type="hidden" name="jugada" value="w">
+      <button type="submit">Arriba (W)</button>
+    </form>
+  </div>
+
+  <!-- Fila para los botones de movimiento hacia la izquierda y derecha -->
+  <div class="fila">
+    <form action="/partida" method="post" class="boton">
+      <input type="hidden" name="jugada" value="a">
+      <button type="submit">Izquierda (A)</button>
+    </form>
+
+    <form action="/partida" method="post" class="boton">
+      <input type="hidden" name="jugada" value="d">
+      <button type="submit">Derecha (D)</button>
+    </form>
+  </div>
+
+  <!-- Fila para el botón de movimiento hacia abajo -->
+  <div class="fila">
+    <form action="/partida" method="post">
+      <input type="hidden" name="jugada" value="s">
+      <button type="submit">Abajo (S)</button>
+    </form>
+  </div>
+
+</div>
+
+</body>
+</html>
