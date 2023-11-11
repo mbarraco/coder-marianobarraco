@@ -1,0 +1,10 @@
+setup.py
+entrega1/__init__.py
+entrega1/actividad_1.py
+entrega2/__init__.py
+entrega2/main.py
+entrega2/tablero.py
+tablero.egg-info/PKG-INFO
+tablero.egg-info/SOURCES.txt
+tablero.egg-info/dependency_links.txt
+tablero.egg-info/top_level.txt
