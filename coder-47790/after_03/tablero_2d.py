@@ -3,9 +3,10 @@
 class Tablero2d:
 
 
-    def __init__(self, filas, columnas):
+    def __init__(self, filas, columnas, entrada):
         self.filas = filas
         self.columnas = columnas
+        self.entrada = entrada
 
 
     def imprimir(self):
@@ -16,7 +17,7 @@ class Tablero2d:
 
 
 
-mi_tablero = Tablero2d(90, 4)
+mi_tablero = Tablero2d(15, 4, [1,1])
 
 print("_" * 90)
 mi_tablero.imprimir()
