@@ -28,4 +28,9 @@ print(xx)
 print()
 mi_texto = "El rápido zorro marrón salta sobre el perro perezoso"
 xx = mi_texto.split(" ")
+print(xx.index("rápido"))
+
+print()
+mi_texto = "El rápido zorro marrón salta sobre el perro perezoso"
+xx = mi_texto.split("rápido")
 print(xx[1])
