@@ -31,3 +31,8 @@ print("lista_3:", lista_3)
 print("lista_4:", lista_4)
 print("lista_5:", lista_5)
 print("lista_5_bis:", lista_5_bis)
+
+
+# extra
+lista_5_bis.extend(["9999999999", "8888888888"])
+print("lista_5_bis:", lista_5_bis)
