@@ -10,7 +10,8 @@ mi_variable_booleana = (
     and edad < 20
     and len(nombre) >= 4
     and len(nombre) < 8
-    and 
+    and
 )
+
 
 print(f"Mi variable booleana es: {mi_variable_booleana}")
