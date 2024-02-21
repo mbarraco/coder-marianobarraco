@@ -80,6 +80,7 @@ while True:
 
 FILAS = 6
 COLUMNAS = 8
+
 def dibujar_tablero(posicion_fila, posicion_columna):
     tablero = []
     for i in range(FILAS):

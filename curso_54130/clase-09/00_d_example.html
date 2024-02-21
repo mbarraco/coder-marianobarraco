@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Board Game</title>
+
+    <style>
+    body {
+        text-align: center;
+    }
+    .container {
+        margin: auto;
+        width: 50%;
+    }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    td, th {
+        border: 3px solid #ddd;
+        text-align: center;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    textarea {
+        width: 80%; /* Adjust based on preference */
+        margin-bottom: 20px; /* Adds some space below the textarea */
+    }
+    </style>
+
+</head>
+<body>
+    <!-- Visible title for the user -->
+    <h1>Welcome to the Board Game!</h1>
+
+    <!-- Text box for instructions -->
+    <textarea id="gameInstructions" name="gameInstructions" rows="5" cols="50" readonly style="resize:none;">
+        Game Instructions:
+        - Step 1: ...
+        - Step 2: ...
+        - Step 3: ...
+    </textarea>
+
+    <!-- Placeholder for the board -->
+    <table>
+        <tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td style="color: red;">0</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+    </table>
+</body>
+</html>
