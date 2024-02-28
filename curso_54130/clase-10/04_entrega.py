@@ -6,20 +6,19 @@ def registrar():
     password = input("Elegir una contraseña: ")
     registro[usuario] = password
 
-registrar()
-
-
-print(registro)
+def mostrar():
+    for user, pwd in registro.items():
+        print(f"Usuario: '{user}' - Contraseña: '{pwd}'")
 
 def loggear():
     usuario = input("Ingresar un nombre de usuario: ")
     password = input("Ingresar una contraseña: ")
-
     print("Has ingresado con éxito!")
     print("Contraseña incorrecta!")
 
-
-loggear()
+registrar()
+mostrar()
+# loggear()
 
 """En la función loggear falta decidir si el par usuario/password son
 correctos.
