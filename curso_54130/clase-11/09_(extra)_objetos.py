@@ -6,7 +6,6 @@ class Triangulo:
         self.lado_extra = lado_extra
 
     def obtener_superficie(self):
-        # Falta una implementación correcta!!!
         superficie = (self.base * self.altura) / 2
         return superficie
 

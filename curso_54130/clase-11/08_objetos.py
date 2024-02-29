@@ -6,15 +6,11 @@ class Triangulo:
         self.lado_extra = lado_extra
 
     def obtener_superficie(self):
-        # Falta una implementación correcta!!!
         superficie = (self.base * self.altura) / 2
         return superficie
 
     def __str__(self):
-        # return "hola! soy un triángulo de Coder"
-        # return f"hola! soy un triángulo de {self.base} cm de base"
-        # return f"Soy un triángulo de {self.base} cm de base y {self.altura} cm de altura y mi tercer lado mide {self.lado_extra}"
-        return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}"
+       return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}"
 
 
 xx = Triangulo(3, 4, 5)
