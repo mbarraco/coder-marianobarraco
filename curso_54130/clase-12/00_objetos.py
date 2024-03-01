@@ -11,11 +11,11 @@ class Triangulo:
         return superficie
 
     def __str__(self):
-       return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}. Superficie: {self.obtener_superficie()}"
+        return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}. Superficie: {self.obtener_superficie()}"
 
 
-xx = Triangulo(3,4,5)
-yy = Triangulo(10,20,40)
+xx = Triangulo(3, 4, 5)
+yy = Triangulo(10, 20, 40)
 
 print(xx.obtener_superficie())
 print(xx.area)

@@ -7,11 +7,11 @@ class Rectangulo:
         self.area = self.obtener_superficie()
 
     def obtener_superficie(self):
-        superficie = (self.base * self.altura)
+        superficie = self.base * self.altura
         return superficie
 
     def __str__(self):
-       return f"Rectangulo: {self.base}, {self.altura}, {self.base}, {self.altura}. Superficie: {self.obtener_superficie()}"
+        return f"Rectangulo: {self.base}, {self.altura}, {self.base}, {self.altura}. Superficie: {self.obtener_superficie()}"
 
 
 xx = Rectangulo(3, 4)

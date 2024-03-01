@@ -15,13 +15,13 @@ class Cuadrilatero:
 class MiRectangulo(Cuadrilatero):  # 1
 
     def __init__(self, base, altura):
-        super().__init__(base, base, altura, altura)   # 2 muy extraño!
+        super().__init__(base, base, altura, altura)  # 2 muy extraño!
         self.base = base
         self.altura = altura
         self.area = self.obtener_superficie()
 
     def obtener_superficie(self):
-        superficie = (self.base * self.altura)
+        superficie = self.base * self.altura
         return superficie
 
     def __str__(self):
@@ -31,7 +31,9 @@ class MiRectangulo(Cuadrilatero):  # 1
         return self.calcular_perimetro()
 
 
-xx = MiRectangulo(3, 4) # Creo un objeto de la clase Rectángulo y lo guardo en la variable xx
+xx = MiRectangulo(
+    3, 4
+)  # Creo un objeto de la clase Rectángulo y lo guardo en la variable xx
 print(xx.obtener_superficie())
 print(xx.calcular_perimetro())  # 3 utilizo lo que "no existe"
 print(xx)

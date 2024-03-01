@@ -14,5 +14,3 @@ class TrianguloIsosceles(Triangulo):
 
 class TrianguloEscaleno(Triangulo):
     pass
-
-
