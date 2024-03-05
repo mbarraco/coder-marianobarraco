@@ -1,4 +1,3 @@
-
 separador = "    "
 longitud = len(separador)
 print(separador)

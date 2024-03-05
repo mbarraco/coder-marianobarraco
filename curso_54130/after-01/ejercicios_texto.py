@@ -1,7 +1,7 @@
 mi_texto = "El rápido zorro marrón salta sobre el perro perezoso"
 
 
-# 1. Extraer la primer letra "p" del texto e imprimirla
+# 1. Extraer la primer letra "p" del texto e imprimirla
 print("1 --> (luciano)", mi_texto[5:6])
 print("1 --> (dante) ", mi_texto[5])
 
@@ -16,8 +16,7 @@ print()
 print("2 --> (mariano)", mi_texto[3:9])
 
 
-
-# 3. Voltear el texto e imprimirlo
+# 3. Voltear el texto e imprimirlo
 print()
 print("3 -->  ", mi_texto[::-1])
 

@@ -18,8 +18,12 @@ class Triangulo:
 xx = Triangulo(3, 4, 5)
 yy = Triangulo(4, 7, 20)
 print(xx == yy)
-print(f"la base del triangulo xx es {xx.base} y su superficie es: {xx.obtener_superficie()}")
-print(f"la base del triangulo yy es {yy.base} y su superficie es: {yy.obtener_superficie()}")
+print(
+    f"la base del triangulo xx es {xx.base} y su superficie es: {xx.obtener_superficie()}"
+)
+print(
+    f"la base del triangulo yy es {yy.base} y su superficie es: {yy.obtener_superficie()}"
+)
 
 # Ejercicio de Pedro Svriz
 # Entonces, en POO no se pueden creár directamente un triangulo,

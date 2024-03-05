@@ -1,12 +1,14 @@
-
 def func_1():
     print("hola!")
+
 
 def func_2(palabra):
     print(f"hola, {palabra}!")
 
+
 def func_3(palabra, numero):
     print(f"hola, {palabra}! son las {numero} de la tarde")
+
 
 def func_4(numero):
     numero += 1
@@ -18,6 +20,7 @@ def func_5(numero):
     print(f"numero: {numero}")
     # devolver numero al exterior
     return numero
+
 
 def func_6(fila, columna):
     fila += 1

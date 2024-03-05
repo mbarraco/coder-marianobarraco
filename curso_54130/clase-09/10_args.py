@@ -5,8 +5,9 @@ def sumar(*args):
         suma += arg
     print("suma: ", suma)
 
+
 print()
 sumar(1)
 
 print()
-sumar(1, 2, 3, 4, 5, 6, 7 , 8)
+sumar(1, 2, 3, 4, 5, 6, 7, 8)

@@ -1,4 +1,5 @@
 import time
+
 # 1. Imprimir por pantalla los valores de las variables xx e yy.
 
 # xx = 0

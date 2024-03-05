@@ -1,5 +1,3 @@
-
-
 mi_suma = 1 + 2
 mi_resta = 1 - 2
 mi_producto = 1 * 2

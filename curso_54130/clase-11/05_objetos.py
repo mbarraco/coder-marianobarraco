@@ -1,5 +1,3 @@
-
-
 # Kenneth dijo:
 # definimos una variable tirangulo que una base de 3, una altura de  4 y otro lado de 5
 class Triangulo:
@@ -24,9 +22,12 @@ print("1")
 xx = Triangulo()
 print("2")
 print(f"la base del triángulo es {xx.base} y su altura es {xx.altura}")
-print(f"la base del triángulo es {xx.base} y su altura es {xx.altura} y tiene un lado extra que mide {xx.lado_extra}")
-print(f"la base del triángulo es {xx.base} y su altura es {xx.altura} y su superficie es {xx.obtener_superficie()}")
-
+print(
+    f"la base del triángulo es {xx.base} y su altura es {xx.altura} y tiene un lado extra que mide {xx.lado_extra}"
+)
+print(
+    f"la base del triángulo es {xx.base} y su altura es {xx.altura} y su superficie es {xx.obtener_superficie()}"
+)
 
 
 # Ejercicio de Pedro Svriz

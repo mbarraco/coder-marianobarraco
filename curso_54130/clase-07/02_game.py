@@ -6,8 +6,10 @@ for i in range(5):
     # print(tablero)
     fila = []
     for j in range(3):
-        fila.append(".") # fila -> [".", ".", "."]
-    tablero.append(fila) # tablero -> [[".", ".", "."], [".", ".", "."], [".", ".", "."], [".", ".", "."], [".", ".", "."]]
+        fila.append(".")  # fila -> [".", ".", "."]
+    tablero.append(
+        fila
+    )  # tablero -> [[".", ".", "."], [".", ".", "."], [".", ".", "."], [".", ".", "."], [".", ".", "."]]
 
 # print(tablero)
 

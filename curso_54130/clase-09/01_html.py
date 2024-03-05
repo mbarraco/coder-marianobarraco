@@ -1,6 +1,7 @@
 FILAS = 8
 COLUMNAS = 10
 
+
 def crear_tablero(posicion_fila, posicion_columna):
     tablero = []
     for i in range(FILAS):
@@ -11,28 +12,17 @@ def crear_tablero(posicion_fila, posicion_columna):
 
 
 def generarar_tablero_en_version_html(tablero):
-    tablero_html = '<table>'
+    tablero_html = "<table>"
     for fila in tablero:
-        tablero_html += '<tr>'
+        tablero_html += "<tr>"
         for posicion in fila:
             if posicion == "0":
                 tablero_html += f'<td style="color: red;">{posicion}</td>'
             else:
-                tablero_html += f'<td>{posicion}</td>'
-        tablero_html += '</tr>'
-    tablero_html += '</table>'
+                tablero_html += f"<td>{posicion}</td>"
+        tablero_html += "</tr>"
+    tablero_html += "</table>"
     return tablero_html
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Assuming 'tablero' is your board matrix

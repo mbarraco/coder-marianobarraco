@@ -60,7 +60,6 @@ def consultar_capital(pais="argentina"):
         return f"No se encontro informacion para: {pais}"
 
 
-
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
@@ -81,6 +80,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     print(update.message.text)
     print("_" * 90)
     await update.message.reply_text(consultar_capital(update.message.text))
+
 
 def generar_link_a_google_maps(lat, long):
     base_url = "https://www.google.com/maps/search/?api=1&query="

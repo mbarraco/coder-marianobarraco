@@ -1,5 +1,5 @@
-mi_lista = ['A',"B","C"]
-mi_otra_lista = ["a","b","c"]
+mi_lista = ["A", "B", "C"]
+mi_otra_lista = ["a", "b", "c"]
 
 print()
 print("1 -> ", mi_lista)

@@ -1,5 +1,5 @@
-ALPHA = {1,2,3,4}
-BETA = {2,3}
+ALPHA = {1, 2, 3, 4}
+BETA = {2, 3}
 GAMA = {100, 101}
 print()
 
@@ -11,7 +11,7 @@ print()
 
 
 # INTERSECTION
-ALPHA = {1,2,3,4}
+ALPHA = {1, 2, 3, 4}
 interseccion = ALPHA.intersection(BETA)
 print("La interseccion de ALPHA y BETA es:", interseccion)
 print("ALPHA quedo: ", ALPHA)
@@ -24,7 +24,7 @@ print("ALPHA quedo: ", ALPHA)
 print()
 
 # DIFFERENCE
-ALPHA = {1,2,3,4}
+ALPHA = {1, 2, 3, 4}
 # EPSILON = ALPHA.difference(BETA)
 EPSILON = ALPHA - BETA
 print("ALPHA - BETA", EPSILON)
@@ -59,5 +59,3 @@ print(mi_conjunto)
 mi_conjunto.add("7")
 print(mi_conjunto)
 print(BETA)
-
-

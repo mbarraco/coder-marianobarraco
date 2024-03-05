@@ -15,7 +15,7 @@ for i in range(filas):
 
 print(f"_________________________TABLER0 1")
 for xx in tablero:
-    time.sleep(.2)
+    time.sleep(0.2)
     print("  ".join(xx))
 
 # 1. En la tercer fila y séptima columna de tablero, colocar un "0"
@@ -23,5 +23,5 @@ for xx in tablero:
 tablero[2][6] = "0"
 print(f"_________________________TABLER0 2")
 for xx in tablero:
-    time.sleep(.2)
+    time.sleep(0.2)
     print("  ".join(xx))

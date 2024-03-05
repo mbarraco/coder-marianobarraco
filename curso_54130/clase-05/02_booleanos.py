@@ -40,7 +40,7 @@ print("AND: ", xx, yy, zz, ww)
 xx = not 3 > 4 and 1 == 1
 yy = 2 < 11 or 1000 < 4
 zz = 3 <= 9 / 2 or 1 == 1
-ww = not "b" > "z" and  not "d" > "z"
+ww = not "b" > "z" and not "d" > "z"
 
 print()
 print("LA COMPLICO: ", xx, yy, zz, ww)

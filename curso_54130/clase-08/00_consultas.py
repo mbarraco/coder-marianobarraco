@@ -1,11 +1,10 @@
-
 # 1
 for i in "cordoba":
     print(i)
 print()
 
 # 2
-for i in [66,55,55,44]:
+for i in [66, 55, 55, 44]:
     print(i)
 print()
 

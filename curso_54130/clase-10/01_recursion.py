@@ -30,19 +30,21 @@ Observación
 #         factorial *= i
 #     return factorial
 
+
 def calcular_factorial(numero):
     """Observación
-        1) 5! = 5 * 4 * 3 * 2 * 1
-        2) 4! = 4 * 3 * 2 * 1
-        3) 5! = 5 * 4!
+    1) 5! = 5 * 4 * 3 * 2 * 1
+    2) 4! = 4 * 3 * 2 * 1
+    3) 5! = 5 * 4!
     """
 
     print(f"Me invocaron con el valor numero = {numero}")
     if numero == 0:
         return 1
     else:
-        return numero * calcular_factorial(numero-1) # return numero * el factorial del anterior a mi numero como hizo Thomas
-
+        return numero * calcular_factorial(
+            numero - 1
+        )  # return numero * el factorial del anterior a mi numero como hizo Thomas
 
 
 print(calcular_factorial(4))

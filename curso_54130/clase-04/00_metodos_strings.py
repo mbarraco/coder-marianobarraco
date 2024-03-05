@@ -34,7 +34,9 @@ print("10 --> ", mi_experimento_5)
 mi_experimento_5 = mi_experimento_5.replace("los", "las")
 print("11 --> ", mi_experimento_5)
 
-mi_experimento_5 = mi_experimento_5.replace("casas de pi", "").replace("enanos", "enanas")
+mi_experimento_5 = mi_experimento_5.replace("casas de pi", "").replace(
+    "enanos", "enanas"
+)
 print("12 --> ", mi_experimento_5)
 
 mi_experimento_5 = mi_experimento_5.replace("e", "3")

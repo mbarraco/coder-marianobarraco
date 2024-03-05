@@ -41,5 +41,3 @@ print("la nueva lista es: ", mi_lista)
 mi_personaje = mi_lista.pop()
 print("la nueva lista es: ", mi_lista)
 print("El personaje extraído es: ", mi_personaje)
-
-

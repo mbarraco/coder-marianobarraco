@@ -1,5 +1,3 @@
-
-
 # Kenneth dijo:
 # definimos una variable tirangulo que una base de 3, una altura de  4 y otro lado de 5
 class Triangulo:

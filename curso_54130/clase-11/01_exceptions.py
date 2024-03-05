@@ -1,4 +1,3 @@
-
 # Pedir al usuario que ingrese 2 numeros, sumarlos y motrarlos por pantalla
 # Si el usuario ingresa algo que no puede ser interpretado como numero
 # entonces mostrarle un mensaje de error y pedirle que ingrese números nuevamente
@@ -10,7 +9,7 @@ while True:
     except ValueError:
         print("ese valor no es un numero")
     else:
-        print(a+b)
+        print(a + b)
         break
     finally:
         print("Esta línea se ejecutará siempre!")

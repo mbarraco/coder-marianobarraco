@@ -81,13 +81,14 @@ while True:
 FILAS = 6
 COLUMNAS = 8
 
+
 def dibujar_tablero(posicion_fila, posicion_columna):
     tablero = []
     for i in range(FILAS):
         fila = ["."] * COLUMNAS
         tablero.append(fila)
 
-    tablero[posicion_fila][posicion_columna] = "0" # UNICA MODIFICACION
+    tablero[posicion_fila][posicion_columna] = "0"  # UNICA MODIFICACION
     for xx in tablero:
         print("  ".join(xx))
 
@@ -114,7 +115,3 @@ while True:
 
 # Ejercicio 5: modificar el ejercicio anterior para que el usuario pueda mover el "0" utilizando las lwtras "a,w,d,s"
 #              a: izquierda, w: arriba, d: derecha, s: abajo
-
-
-
-

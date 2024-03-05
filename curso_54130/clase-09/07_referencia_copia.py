@@ -1,8 +1,10 @@
 print()
 
+
 def triplicar(a):
     a = a * 3
     return a
+
 
 mi_numero = 678
 print(f"1 --> el triple de {mi_numero} es: ", triplicar(mi_numero))

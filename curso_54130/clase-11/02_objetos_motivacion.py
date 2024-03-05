@@ -16,16 +16,14 @@ Cálculo de Perímetro:
 # lado1, lado2, lado3 = 3, 4, 5
 
 # B
-triangulo = {
-    "lado1" : 3,
-    "lado2" : 4,
-    "lado3" : 5
+triangulo = {"lado1": 3, "lado2": 4, "lado3": 5}
 
-}
+
 def calcular_area_geometrica(base, altura):
     area = (base * altura) / 2
     print(area)
     return area
+
 
 calcular_area_geometrica(triangulo["lado1"], triangulo["lado2"])
 calcular_area_geometrica(triangulo["lado1"], triangulo["lado3"])

@@ -13,8 +13,10 @@
 
 # Recordemos
 
+
 def imprimir_aprobado():
     print("Prueba aprobada")
+
 
 lista_de_calificaciones = [1, 2, 10, 4]
 

@@ -4,10 +4,12 @@
 # print(len("mi nombre es Legolas"))
 
 lista_funciones_ejecutadas = ["print", "print", "print", "print", "type", "type", "len"]
-conjunto_de_funciones_ejecutadas = set(["print", "print", "print", "print", "type", "type", "len"])
+conjunto_de_funciones_ejecutadas = set(
+    ["print", "print", "print", "print", "type", "type", "len"]
+)
 
-lista = [1,1,1,1,1,1,1,1,1,2,2,3]
-conjunto = {1,1,1,1,1,1,1,1,1,2,2,3}
+lista = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3]
+conjunto = {1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3}
 
 # IN
 print()

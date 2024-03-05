@@ -17,4 +17,3 @@ if edad >= 18:
         print("credito aprobado")
 else:
     print("credito desaprobado")
-

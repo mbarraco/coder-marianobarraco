@@ -1,5 +1,3 @@
-
-
 # Kenneth dijo:
 # definimos una variable tirangulo que una base de 3, una altura de  4 y otro lado de 5
 class Triangulo:
@@ -26,7 +24,6 @@ print("3")
 print(superficie)
 print("4")
 print(f"la base del triángulo es {xx.base}")
-
 
 
 # Ejercicio de Pedro Svriz

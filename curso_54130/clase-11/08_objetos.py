@@ -10,7 +10,7 @@ class Triangulo:
         return superficie
 
     def __str__(self):
-       return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}"
+        return f"Triangulo: {self.base}, {self.altura}, {self.lado_extra}"
 
 
 xx = Triangulo(3, 4, 5)
@@ -22,5 +22,3 @@ print(xx)
 print(yy)
 print(ww)
 print(zz)
-
-

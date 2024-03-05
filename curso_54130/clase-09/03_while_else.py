@@ -1,5 +1,3 @@
-
-
 intentos = 3
 while True:
     if intentos == 0:
@@ -13,4 +11,3 @@ while True:
     intentos -= 1
     print(f"Intentos restantes: {intentos}")
     print()
-

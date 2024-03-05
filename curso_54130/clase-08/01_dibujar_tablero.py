@@ -60,6 +60,7 @@ for xx in tablero:
 # Ejercicio 3: modificar la función anterior para reciba 2 parámetros que indiquen
 #              en qué fila y columna dibujar el "0"
 
+
 def dibujar_tablero(posicion_fila, posicion_columna):
     FILAS = 8
     COLUMNAS = 10
@@ -69,10 +70,11 @@ def dibujar_tablero(posicion_fila, posicion_columna):
         fila = ["."] * COLUMNAS
         tablero.append(fila)
 
-    tablero[posicion_fila][posicion_columna] = "0" # UNICA MODIFICACION
+    tablero[posicion_fila][posicion_columna] = "0"  # UNICA MODIFICACION
 
     for xx in tablero:
         print("  ".join(xx))
+
 
 for i in range(10):
     time.sleep(1)

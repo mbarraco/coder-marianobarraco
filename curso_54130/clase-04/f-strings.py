@@ -1,4 +1,3 @@
-
 nombre = "Stefano D'agostino"
 
 print()

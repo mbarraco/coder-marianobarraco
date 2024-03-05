@@ -24,5 +24,3 @@ print(xx)
 print(yy)
 print(ww)
 print(zz)
-
-

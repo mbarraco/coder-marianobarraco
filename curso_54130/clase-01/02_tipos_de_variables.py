@@ -1,4 +1,4 @@
-mi_entero = 999   # integer: "int"
+mi_entero = 999  # integer: "int"
 mi_flotante = 2.5  # floating point: "float"
 mi_texto = "Run fools!"  # string: "str"
 

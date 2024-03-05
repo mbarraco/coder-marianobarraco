@@ -1,20 +1,23 @@
-
 registro = {}
+
 
 def registrar():
     usuario = input("Elegir un nombre de usuario: ")
     password = input("Elegir una contraseña: ")
     registro[usuario] = password
 
+
 def mostrar():
     for user, pwd in registro.items():
         print(f"Usuario: '{user}' - Contraseña: '{pwd}'")
+
 
 def loggear():
     usuario = input("Ingresar un nombre de usuario: ")
     password = input("Ingresar una contraseña: ")
     print("Has ingresado con éxito!")
     print("Contraseña incorrecta!")
+
 
 registrar()
 mostrar()

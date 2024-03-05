@@ -9,4 +9,3 @@ while intentos > 0:
     print()
 else:
     print("Usuario bloqueado")
-
