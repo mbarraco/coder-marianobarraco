@@ -4,8 +4,8 @@
     - `__init__.py`: Un archivo vacío que indica que este directorio debe ser considerado un paquete de Python.
     - `modulo_01.py`: Tu primer módulo.
     - `modulo_02.py`: Tu segundo módulo.
-- `README.md`: Este archivo.
-- `setup.py`: Script de configuración para distribuir tu paquete.
+  - `README.md`: Este archivo.
+  - `setup.py`: Script de configuración para distribuir tu paquete.
 
 
 ## Creación de `setup.py`
