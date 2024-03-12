@@ -5,11 +5,24 @@ from b_banco import Banco
 from a_entidades import Persona, Empresa
 
 
-mi_banco = Banco("Interbank: el banco de internet")
-persona_1 = Persona("alberto", 22123233, 89, "al@berto.com")
-empresa_1 = Empresa("Compumundo hipermegared", "20-1312312-12","compumundo@mundo.com")
+mi_banco = Banco("Felipe's Bank")
+persona_1 = Persona("rogelia", 999, 34, "rogelia@gmail.com")
+persona_2 = Persona("edgar", 777, 79, "edgar@gmail.com")
+empresa_1 = Empresa("Nerv", 3434, "ikari@nerv.com")
+
+
 mi_banco.crear_cuenta(persona_1)
+mi_banco.crear_cuenta(persona_2)
 mi_banco.crear_cuenta(empresa_1)
+
+
+mi_banco.depositar_en_cuenta(persona_1, 100)
+mi_banco.depositar_en_cuenta(persona_1, 94)
+mi_banco.depositar_en_cuenta(persona_1, -70)
+mi_banco.depositar_en_cuenta(persona_2, 1000)
+mi_banco.depositar_en_cuenta(persona_2, -700)
+mi_banco.depositar_en_cuenta(empresa_1, 14000000)
+
 
 app = Flask("Mi servidor")
 
@@ -18,9 +31,11 @@ app = Flask("Mi servidor")
 def home():
     return f"bienvenidos a {mi_banco}"
 
+
 @app.route("/cuentas")
 def cuentas():
     return mi_banco.transformar_cuentas_en_texto()
+
 
 @app.route("/crear-cuenta-form")
 def crear_cuenta_form():
@@ -28,7 +43,7 @@ def crear_cuenta_form():
     html_form = '''
         <html>
             <body>
-                <form action="/crear_cuenta" method="post">
+                <form action="/xxxxx" method="post">
                     <label for="tipo_cuenta">Tipo de cuenta:</label><br>
                     <select name="tipo_cuenta" id="tipo_cuenta">
                         <option value="persona">Persona</option>
@@ -44,6 +59,23 @@ def crear_cuenta_form():
         </html>
     '''
     return render_template_string(html_form)
+
+
+@app.route("/xxxxx", methods=['POST'])
+def crear_cuenta():
+    print("------------------------------")
+    print("------------------------------")
+    print(request.form)
+    print(request.form["tipo_cuenta"])
+    print(request.form["nombre"])
+    empresa = Empresa(request.form["nombre"],)
+
+    print("------------------------------")
+    print("------------------------------")
+    return f"Estamos trabajando para usted", 201
+
+
+
 
 
 app.run(debug=True, port=8081)

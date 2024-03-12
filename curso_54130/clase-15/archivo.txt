@@ -1,0 +1,4 @@
+1 - Azul
+2 - Rojo
+3 - Cyan
+4 - Magenta
