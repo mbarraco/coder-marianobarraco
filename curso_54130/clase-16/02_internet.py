@@ -10,11 +10,9 @@ persona_1 = Persona("rogelia", 999, 34, "rogelia@gmail.com")
 persona_2 = Persona("edgar", 777, 79, "edgar@gmail.com")
 empresa_1 = Empresa("Nerv", 3434, "ikari@nerv.com")
 
-
 mi_banco.crear_cuenta(persona_1)
 mi_banco.crear_cuenta(persona_2)
 mi_banco.crear_cuenta(empresa_1)
-
 
 mi_banco.depositar_en_cuenta(persona_1, 100)
 mi_banco.depositar_en_cuenta(persona_1, 94)
@@ -72,7 +70,10 @@ def crear_cuenta_form():
 
 @app.route("/xxxxx", methods=['POST'])
 def crear_cuenta():
+    print("-----------------------------------request.form")
+    print(request.method)
     print(request.form)
+    print("-----------------------------------request.form")
     tipo_de_cuenta = request.form["tipo_cuenta"]
     nombre = request.form["nombre"]
     identificador = request.form["identificador"]
