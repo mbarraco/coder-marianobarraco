@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Así forma la selección Nacional </title>
+</head>
+<body>
+    <h1>Estos son los 11 jugadores titulares</h1>
+    <ul>
+    {% for jugador in players %}
+        <li>{{ jugador }} </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

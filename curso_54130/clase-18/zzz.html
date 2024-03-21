@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Así forma la selección Nacional</title>
+    <style>
+        .arquero { color: green; }
+        .defensor { color: blue; }
+        .mediocampista { color: rgb(0, 255, 26); }
+        .delantero { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Estos son los 11 jugadores titulares</h1>
+    <ul>
+    {% for jugador in players %}
+        {% if jugador.rol == "arquero" %}
+        <li class="arquero">{{ jugador.nombre }} - {{ jugador.rol }}</li>
+        {% elif jugador.rol == "defensor" %}
+        <li class="defensor">{{ jugador.nombre }} - {{ jugador.rol }}</li>
+        {% elif jugador.rol == "mediocampista" %}
+        <li class="mediocampista">{{ jugador.nombre }} - {{ jugador.rol }}</li>
+        {% elif jugador.rol == "delantero" %}
+        <li class="delantero">{{ jugador.nombre }} - {{ jugador.rol }}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</body>
+</html>
